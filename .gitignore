@@ -1,0 +1,33 @@
+# ==================== 构建产物 ====================
+build/
+app/build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output-metadata.json
+
+# ==================== 本地配置（含本机路径，勿提交）====================
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# ==================== 调试 / 测试脚本（含真实凭据，勿提交）====================
+work/
+probe.sh
+*.log
+.taixu/
+
+# ==================== 签名与密钥 ====================
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# ==================== 运行期敏感数据 ====================
+*.b64
+*.log.txt
